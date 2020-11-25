@@ -1,0 +1,144 @@
+body {
+    background-color: black !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    margin: 0 auto;
+}
+
+.header_logo_matrix {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+
+.header_logo_modecom {
+    position: absolute;
+    top: 150px;
+}
+
+.header_strzalki {
+    margin-top: -170;
+    position: absolute;
+    left: 50%;
+
+}
+
+
+.sekcja1 {
+    text-align: center;
+    color: white;
+    background-image: url("tlo.jpg");
+    background-repeat: no-repeat;
+    height: 1450px;
+    font-size: 17px;
+
+}
+
+.button1 {
+    color: white;
+    background-color: darkred;
+    font-size: 17px;
+    padding: 10px 45px;
+    border: 0px solid;
+    font-weight: 700;
+}
+
+.sekcja1_1 {
+    padding-top: 110px;
+}
+
+.sekcja1_2 {
+    padding-top: 100px;
+}
+
+.sekcja1_3 {
+    padding-top: 220px;
+}
+
+.sekcja2 {
+    text-align: center;
+    color: white;
+}
+
+.sekcja2 h4 {
+    margin-top: 90px;
+}
+
+.sekcja2_2 {
+    margin-top: -5%;
+}
+
+.sekcja2_3 {
+    margin-top: -29%;
+}
+
+.sekcja2_4 {
+    margin-top: -19.5%;
+}
+
+
+.cena {
+    color: darkred;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.dostepnosc {
+    color: green;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.sekcja2 a {
+    color: white;
+    text-align: left;
+}
+
+@media screen and (max-width:991px) {
+    .sekcja2_3 {
+        margin-top: -10%;
+    }
+    .sekcja2_4 {
+        margin-top: -10%;
+    }
+    #button2 {
+        margin-bottom: 50px;
+    }
+    .logo1 {
+        height: 60px;
+    }
+    .logo2 {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:531px) {
+    .sekcja1 {
+        height: 1740px
+    }
+    .logo1 {
+        height: 40px;
+    }
+    .logo2 {
+        height: 15px;
+    }
+    .header_logo_modecom {
+        position: absolute;
+        top: 100px;
+    }
+    .header_strzalki
+    {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width:1199px) {
+    .button3 {
+        padding-left: 35px;
+    }
+    .header_strzalki
+    {
+        margin-top: -70px;
+    }
+}

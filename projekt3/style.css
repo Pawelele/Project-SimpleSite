@@ -1,0 +1,270 @@
+body {
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif !important;
+    margin: 0 auto;
+}
+
+.naglowek {
+    background-color: black;
+}
+
+.naglowek img {
+    margin-left: 15%;
+}
+
+.button_slider {
+    font-weight: 100;
+    font-size: 22px;
+    color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+#right_button {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+
+#left_button {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.sekcja2_lewo span {
+    font-weight: 700;
+}
+
+.sekcja3_lewo {
+    border: 1px solid rgb(184, 179, 179);
+    font-size: 13px;
+}
+
+.sekcja3_prawo {
+    border: 1px solid rgb(184, 179, 179);
+    font-size: 13px;
+}
+
+.sekcja3_lewo_tekst {
+    margin-right: 11px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.sekcja3_lewo_tekst span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sekcja3_lewo_tekst p {
+    color: dodgerblue;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sekcja3_button {
+    background-color: dodgerblue;
+    color: white;
+    border: 0px solid;
+    padding: 10px 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sekcja3_prawo_tekst {
+    margin-right: 12px;
+    float: right;
+    text-align: right;
+    margin-top: 10px
+
+}
+
+.sekcja3_prawo_tekst span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sekcja3_prawo_tekst p {
+    color: dodgerblue;
+    font-weight: 700;
+    font-size: 22px;
+}
+.sekcja3_all img
+{
+    padding: 10px;
+}
+
+
+.sekcja4_all span {
+    font-weight: 700;
+}
+
+.sekcja5_ikony li {
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid darkgray;
+    margin-bottom: 10px;
+}
+
+.sekcja5_ikony img {
+    height: 190px;
+    padding: 15px;
+}
+
+.sekcja5_ikony {
+    text-align: center;
+}
+
+.sekcja5_ikony p {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: -12px;
+    background-color: white;
+}
+
+.sekcja6 h2 {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.sekcja6 {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.sekcja6 li {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.sekcja7_all {
+    background-image: url("foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin-top: -30px;
+
+}
+
+.sekcja7_tekst {
+    color: white;
+    margin-left: 11%;
+    margin-top: 7%;
+
+}
+
+.sekcja7_tekst span {
+    font-weight: 600;
+}
+
+.sekcja8_all {
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.sekcja9_lewo {
+    margin-top: 40px;
+    margin-bottom: 10%;
+    margin-left: 15%
+}
+
+.sekcja9_prawo {
+    margin-top: 40px;
+    margin-bottom: 10%;
+    margin-right: 15%;
+}
+
+.sekcja9_prawo span {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.sekcja10_all {
+
+    background-color: #efefef;
+
+}
+.sekcja10
+{
+    margin-bottom: 10%
+}
+
+.sekcja10_lewo {
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.sekcja10_prawo {
+    margin-top: 20%;
+    margin-right: 15%;
+}
+
+.sekcja10_lewo span {
+    font-weight: 700;
+}
+
+.sekcja11_lewo {
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.sekcja11_prawo {
+    margin-top: 15%;
+    margin-right: 15%
+}
+
+.sekcja12 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:1200px)
+{
+    .sekcja3_lewo_tekst
+    {
+        float:none;
+        text-align: center;
+    }
+    .sekcja3_prawo_tekst
+    {
+        float:none;
+        text-align: center;
+
+    }
+    .sekcja3_lewo button
+    {
+        display:block;
+        margin:5 auto;
+    
+    }
+    .sekcja3_prawo button
+    {
+        display:block;
+        margin:5 auto;
+    }
+    .sekcja3_lewo img
+    {
+        height:100px;
+        display:block;
+        margin:0 auto;
+        padding:5px;
+    }
+    .sekcja3_prawo img
+    {
+        height:100px;
+        display:block;
+        margin:0 auto;
+        padding:5px;
+    }
+}

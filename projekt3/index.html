@@ -1,0 +1,280 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Telewizory</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="naglowek">
+                    <img src="logo_sony.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sekcja1_slider_all">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="slider">
+                    <img class="mySlides" src="slider1.png" width=100%;>
+                    <img class="mySlides" src="slider2.png" width="100%">
+                    <img class="mySlides" src="slider3.png" width="100%">
+                    <button class="button_slider" id="left_button" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="button_slider" id="right_button" onclick="plusDivs(+1)">&#10095;</button>
+                    
+<!--                    Skrypty do slidera-->
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+
+                        function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {
+                                slideIndex = 1
+                            }
+                            if (n < 1) {
+                                slideIndex = x.length
+                            };
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                        }
+
+                    </script>
+                    <script>
+                        var slideIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > x.length) {
+                                slideIndex = 1
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                            setTimeout(carousel, 8000); // zmiana obrazka co 2s
+                        }
+
+                    </script>
+<!--                    Koniec-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sekcja2_all">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sekcja2_lewo">
+                        <h2><span>Poznaj</span> doskonały obraz</h2><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sekcja3_all">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sekcja3_lewo">
+                        <img src="tv2.png">
+                        <div class="sekcja3_lewo_tekst">
+                            <span>KD-G5XE9005</span><br><br>Technologia Smart TV<br>Przekątna [cali] 65<br>Zgodność z HD 4K Ultra HD<br> Gniazda HDMI [szt] 4<br> Klasa energetyczna A<br><br>
+                            <p>9899,00 zł</p>
+                        </div>
+                        <button type=button class="sekcja3_button">Kup teraz</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sekcja3_prawo">
+                        <img src="tv1.png">
+                        <div class="sekcja3_prawo_tekst">
+                            <span>KD-G5XE9005</span><br><br>Technologia Smart TV<br>Przekątna [cali] 65<br>Zgodność z HD 4K Ultra HD<br> Gniazda HDMI [szt] 4<br> Klasa energetyczna A<br><br>
+                            <p>6099,00 zł</p>
+                        </div>
+                        <button type=button class="sekcja3_button">Kup teraz</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sekcja4_all">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><span>Dobierz</span> akcesoria</h2><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sekcja5_all">
+        <div class="container">
+            <div class="row">
+                <div class="sekcja5">
+                    <div class="sekcja5_ikony">
+                        <ul>
+                            <li>
+                                <p>KINA DOMOWE, BLU...</p><img src="okulary.jpg"></li>
+                            <li>
+                                <p>HIFI AUDIO</p><img src="sluchawki.jpg"></li>
+                            <li>
+                                <p>DROBNY SPRZĘT</p><img src="okulary.jpg"></li>
+                            <li>
+                                <p>SŁUCHAWKI</p><img src="sluchawki.jpg"></li>
+                            <li>
+                                <p>AKCESORIA RTV</p><img src="okulary.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja6_all">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="sekcja6">
+                    <h2>Najważniejsze funkcje</h2><br>
+
+
+                    <ul>
+                        <li><img src="logo1.jpg"></li>
+                        <li><img src="logo2.jpg"></li>
+                        <li><img src="logo3.jpg"></li>
+                        <li><img src="logo4.jpg"></li>
+                        <li><img src="logo5.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja7_all">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="sekcja7">
+                    <div class="sekcja7_tekst">
+                        <h1>Rzeczywisty obraz<br>i wyjątkowy kontrast</h1><br>
+                        <span>X-TENDED DYNAMIC RANGE PRO</span><br><br> Ciesz się pięknym nocnym wudikiem jasnych świate i głębokiej czerni. Dzięki nawet pięciokrotnie wyższemu kontrastowi niż w zwykłym telewizorze LED ciemne sceny są ciemniejsze, a jasne jaśniejsze.
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja8_all">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><img src="biale_logo1.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja9_all">
+        <div class="container">
+            <div class="row">
+                <div class="sekcja9">
+                    <div class="col-md-6">
+                        <div class="sekcja9_lewo">
+                            <img src="foto1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sekcja9_prawo">
+                            <h2>Więcej szczegółów, więcej życia, <br>więcej realizmu</h2><br>
+                            <span>Procesor obrazu 4K HDR Procesor X1</span><br>
+                            <p>To jak znaleźć się we wnętrzu fali, czekając aż woda załamie się wokół procesor obrazu 4K HDR Procesor X1 odtwarza drobne wzory i tekstury z niezwykym realizmem.</p><br>
+                            <img src="biale_logo2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sekcja10_all">
+        <div class="container">
+            <div class="sekcja10">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="sekcja10_lewo">
+                            <h2>Odkryj szczegóły z 4K HDR</h2><br>
+                            <span>4K High Dynamic Range</span><br>
+                            <p>W celu zapewnienia najwyższej jakości obrazu, telewizor łączy wyrazistość 4K z jasnością, kolorami i sczegółowością technologii High Dynamic Range (HDR). Wcześniej ukryte obszary są teraz wyraziste i pełne szczegółów.</p>
+
+                            <img src="logo3.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sekcja10_prawo">
+                            <img src="foto2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja11_all">
+        <div class="container">
+            <div class="sekcja11">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="sekcja11_lewo">
+                            <img src="foto3.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="sekcja11_prawo">
+                            <h2>Olśniewająco żywy obraz<br>dzięki dodatkowym kolorom</h2><br>
+                            <span>TRILUMINOS Display</span><br>
+                            <p>Odkryj żywe, realistyczne kolory dookoła. Wyświetlacze TRILUMINOS Display korzystają z szerszej palety barw, zapewniając wierne odwzorowanie barwi i cieni.</p>
+
+                            <img src="biale_logo3.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sekcja12_all">
+        <div class="container">
+            <div class="sekcja12">
+                <div class="row">
+                    <h1>Po prostu mów - ciekawy sposób<br>na odkrywanie nowych światów</h1><br>
+                    <p>Odkrywaj rozrywkę, o której marzysz, przy użyciu sów. Dzięki zaawansowanym funkcjom sterowania głosem<br> ten ten telewizor 4K Android TV pozwala szybko odnajdywać filmy i programy telewizyjne przy użyciu aplikacji<br> lub sygnału telewizyjnego.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

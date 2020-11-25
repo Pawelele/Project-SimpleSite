@@ -1,0 +1,349 @@
+body {
+    background-color: white !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    margin: 0 auto;
+}
+
+.naglowek {
+    text-align: center;
+}
+
+.naglowek a {
+    color: #9b9b30;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.all {
+    background: url("img/tlo.jpg");
+    height: 3300px;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.sekcja1_lewo img {
+    margin-top: 5%;
+    margin-left: 11%;
+}
+
+.sekcja1_prawo h1 {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.3;
+    font-size: 45
+}
+
+.sekcja1_prawo span {
+    color: #d6d61f;
+    font-size: 18;
+}
+
+.sekcja1_prawo {
+    margin-top: 30%;
+    margin-left: 5%;
+}
+
+.sekcja1_prawo p {
+    color: white;
+    font-weight: 700;
+    font-size: 15;
+}
+
+.col-md-4 {
+    padding: 0px !important;
+}
+
+.sekcja2_1 h1 {
+    text-align: center;
+    color: white;
+    margin-top: 40%;
+
+}
+
+.sekcja8_all {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.button1 {
+    color: white;
+    background-color: #ff723e;
+    padding: 5px 45px;
+    border: 0px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.button1 span {
+    font-weight: 700;
+}
+
+.button2 {
+    color: white;
+    background-color: #db2343;
+    padding: 5px 45px;
+    border: 0px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.button2 span {
+    font-weight: 700;
+}
+
+.button3 {
+    color: white;
+    background-color: #18a5fd;
+    padding: 5px 45px;
+    border: 0px;
+    pointer-events: none;
+    cursor: default;
+}
+
+.button3 span {
+    font-weight: 700;
+}
+
+.xd {
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 5%;
+    margin-bottom: 4%;
+}
+
+.plan span {
+    font-weight: 700;
+}
+
+.plan {
+    padding: 75;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 12;
+    padding-top: 30px
+}
+
+.dni_piekar_logo {
+    margin-top: 25%;
+
+}
+
+.dni_piekar_logo:hover {
+    transform: scale(1);
+}
+
+.sekcja9_all {
+    text-align: center;
+}
+
+.sekcja9_all h1 {
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.kafelki img {
+    transition: 0.3s transform cubic-bezier(.66, .08, 0, 1.01);
+}
+
+.kafelki img:hover {
+    transform: scale(1.05);
+    position: relative;
+    z-index: 100;
+}
+
+.dni_piekar_logo:hover {
+    transform: none !important;
+}
+
+@media screen and (max-width:1199px) {
+    .all {
+        height: 2500px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .all {
+        text-align: center;
+        height: 7700px;
+    }
+    .sekcja1_lewo img {
+        height: 400px;
+        margin-bottom: -170px;
+
+    }
+    .tytul {
+        left: 25%
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .all {
+        height: 7250px;
+    }
+    .sekcja1_lewo img {
+        height: 250px;
+        margin-bottom: -120px;
+    }
+    .tytul {
+        left: 11.5%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .all {
+        height: 6700px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .all {
+        height: 6250px;
+    }
+    .sekcja1_lewo img {
+        margin-bottom: -100px;
+    }
+    .tytul {
+        left: 3%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.owl-carousel .owl-item img {
+    height: 200px;
+}
+
+
+/*preloader*/
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #ECF0F1;
+
+
+    display: none;
+}
+
+.load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+
+
+    display: none;
+}
+
+.load hr {
+    border: 0;
+    margin: 0;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 2s ease infinite;
+}
+
+.load :first-child {
+    background: #19A68C;
+    animation-delay: -1.5s;
+}
+
+.load :nth-child(2) {
+    background: #F63D3A;
+    animation-delay: -1s;
+}
+
+.load :nth-child(3) {
+    background: #FDA543;
+    animation-delay: -0.5s;
+}
+
+.load :last-child {
+    background: #193B48;
+}
+
+.js .load,
+.js #loader-wrapper {
+    display: block;
+}
+
+@keyframes spin {
+    0%,
+    100% {
+        transform: translate(0)
+    }
+    25% {
+        transform: translate(160%)
+    }
+    50% {
+        transform: translate(160%, 160%)
+    }
+    75% {
+        transform: translate(0, 160%)
+    }
+}
+
+/*preloader end*/
+
+.tytul {
+    position: absolute;
+    height: 70px;
+    width: 300px;
+    color: white;
+    z-index: 100;
+    bottom: 5px;
+    /*    left:20px;*/
+    background-color: #e29b4a;
+    transition: 0.3s transform cubic-bezier(.66, .08, 0, 1.01);
+
+}
+
+.tytul:hover {
+    transform: scale(1.05) translateY(-20px) translateX(7px);
+
+}
+
+.tytul h4 {
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.tytul_srodek {
+    width: 110px;
+    height: 70px;
+    background-color: white;
+    color: #e29b4a;
+    display: inline-block;
+    float: right;
+}
