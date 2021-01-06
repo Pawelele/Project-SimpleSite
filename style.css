@@ -93,6 +93,7 @@ body
 .sekcja2_prawo p
 {
     width: 90%;
+    font-size: 19px;
 }
 .sekcja2_all .naglowek
 {
@@ -131,9 +132,27 @@ body
     height: 52px;
     border-radius: 30px;
 }
-.fota_test
+.projekty_img1
 {
     background: url("img/umiejetnosci1.jpg");
+    background-position: center;
+    background-size: 490px 490px;
+    width: 485px;
+    height: 485px;
+    border-radius: 18px;
+}
+.projekty_img2
+{
+    background: url("img/umiejetnosci2.jpg");
+    background-position: center;
+    background-size: 490px 490px;
+    width: 485px;
+    height: 485px;
+    border-radius: 18px;
+}
+.projekty_img3
+{
+    background: url("img/umiejetnosci3.jpg");
     background-position: center;
     background-size: 490px 490px;
     width: 485px;
@@ -153,6 +172,10 @@ body
     background-color: #303030;
     height: 1080px;
 }
+#naglowek_sekcja4
+{
+    margin-bottom: 125px;
+}
 .sekcja4_lewo
 {
     min-height: 485px !important;
@@ -170,10 +193,15 @@ body
     width: 276px;
     height: 114px;
     border-radius: 18px;
+    border: none;
 }
 .sekcja5_all #kontakt
 {
     margin-top: 60px;
+}
+#naglowek_sekcja5
+{
+    margin-bottom: 100px;
 }
 .linki_img
 {
@@ -185,13 +213,17 @@ body
     height: 40px;
     border-radius: 18px;
     margin-bottom: 30px;
+    text-align: center;
+    border: none;
 }
-.form_1
+.form_large
 {
+    text-align: center;
     width: 400px;
     height: 180px;
     border-radius: 18px;
     margin-bottom: 30px;
+    border: none;
 }
 .send
 {
@@ -199,6 +231,7 @@ body
     height: 57px;
     border-radius: 10px;
     font-weight: 700 !important;
+    border: none;
 
 }
 
