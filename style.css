@@ -9,6 +9,10 @@ body
     background-repeat:inherit;
     margin: 0 auto;
 }
+.sekcja1_menu_h
+{
+    display: none;
+}
 .container-xl
 {
     max-width: 1640px !important;
@@ -41,6 +45,11 @@ body
     background-color: #3c3c3a;
     color: white;
     border: none;
+    transition: 0.25s;
+}
+.menu:hover
+{
+    transform:scale(1.05);
 }
 .sekcja1_all
 {
@@ -128,7 +137,7 @@ body
 .skills_progress
 {
     background-color: #84FF8C;
-    width: 500px;
+    width: 90%;
     height: 52px;
     border-radius: 30px;
 }
@@ -147,6 +156,11 @@ body
     width: 485px;
     height: 485px;
     border-radius: 18px;
+    transition: 0.25s;
+}
+.projekty_img:hover
+{
+    transform: scale(1.03);
 }
 .sekcja5_all
 {
@@ -161,6 +175,12 @@ body
     height: 114px;
     border-radius: 18px;
     border: none;
+    background-color: white;
+    transition: 0.25s;
+}
+.sekcja5_all button:hover
+{
+    transform: scale(1.03);
 }
 .sekcja5_all #kontakt
 {
@@ -204,6 +224,27 @@ body
     border-radius: 10px;
     font-weight: 700 !important;
     border: none;
+    background-color: white;
+    transition: 0.25s;
+}
+.send:hover
+{
+    transform: scale(1.05);
+}
+#arrow
+{
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+#arrow:hover
+{
+    margin-top: 30px;
+    transform: scale(1.05);
+
 }
 
 
@@ -216,6 +257,15 @@ body
     width: 380px;
     height: 380px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 1570px)
+{
+    .logo
+    {
+        width: 322px;
+        height: 97px;
+    }
 }
 
 }
@@ -286,25 +336,44 @@ body
     {
         width: 698px;
     }
-    .skills_progress
-    {
-        width: 400px;
-    }
-    .logo
-    {
-        margin-left: 40px;
-    }
 }
 
 @media (max-width: 850px)
 {
+    .logo
+    {
+        margin-bottom: 30px;
+    }
     .sekcja1_menu
     {
         display: none;
     }
     .sekcja1_all
     {
-        background-position: 2100px 1530px;
+        background-position: 2100px 1610px;
+    }
+    .sekcja1_menu_h
+    {
+        display: unset;
+    }
+    .menu_h
+    {
+        width: 175px;
+        height: 53px;
+        border-radius: 18px;
+        margin-top: 40px;
+        margin-left: 25px;
+        text-align: center;
+        background-color: #3c3c3a;
+        color: white;
+        border: none;
+        transition: 0.25s;
+    }
+    .sekcja1_tittle
+    {
+        margin: 0 auto;
+        margin-top: -270px;
+        text-align: center;
     }
 }
 
@@ -314,10 +383,6 @@ body
     {
         width: 558px;
     }
-    .skills_progress
-    {
-        width: 320px;
-    }
 }
 
 @media (max-width: 585px)
@@ -325,10 +390,6 @@ body
     .skills_full
     {
         width: 446px;
-    }
-    .skills_progress
-    {
-        width: 256px;
     }
 
     .profilowe
@@ -368,15 +429,11 @@ body
 {
     .sekcja1_all
     {
-        background-position: 2100px 1480px;
+        background-position: 2100px 1620px;
     }
     .skills_full
     {
         width: 356px;
-    }
-    .skills_progress
-    {
-        width: 205px;
     }
     .sekcja1_all h1
     {
@@ -384,11 +441,28 @@ body
         font-weight: 500;
         margin-top: 401px;
     }
+    .sekcja1_all
+    {
+        background-position: 2100px 1590px;
+    }
     .logo
     {
         width: 322px;
         height: 97px;
         margin-top: 56px;
+    }
+    .menu_h
+    {
+        width: 160px;
+        height: 53px;
+        border-radius: 18px;
+        margin-top: 40px;
+        margin-left: 0px;
+        text-align: center;
+        background-color: #3c3c3a;
+        color: white;
+        border: none;
+        transition: 0.25s;
     }
     .form
     {
@@ -416,14 +490,6 @@ body
     .skills_full
     {
         width: 284px;
-    }
-    .skills_progress
-    {
-        width: 164px;
-    }
-    .logo
-    {
-        margin-left: 0px;
     }
     .sekcja2_prawo
     {

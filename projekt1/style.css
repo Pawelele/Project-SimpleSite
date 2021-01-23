@@ -347,3 +347,26 @@ img {
     display: inline-block;
     float: right;
 }
+
+
+#button_back
+{
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 0.25s;
+    z-index: 199;
+}
+#button_back:hover
+{
+    transform: scale(1.05);
+}
