@@ -168,11 +168,15 @@ body
 }
 #naglowek_sekcja5
 {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .linki_img
 {
     width: 239px;
+}
+.form_all
+{
+    margin-top: -10px;
 }
 .form
 {
@@ -218,6 +222,14 @@ body
 
 @media (max-width: 1199px)
 {
+    .sekcja1_all
+    {
+        background-position: 2100px 1630px;
+    }
+    .naglowek
+    {
+        padding-top: 50px;
+    }
     .sekcja1_menu
     {
         float:inherit;
@@ -240,14 +252,14 @@ body
         width: 100%;
         padding: 30px;
     }
+    .skill_bars
+    {
+        margin-top: 80px;
+    }
     .projekty_img
     {
         width: 290px;
         height: 290px;
-    }
-    .naglowek
-    {
-        padding-top: 50px;
     }
     #naglowek_sekcja4
     {
@@ -259,7 +271,7 @@ body
     }
     #naglowek_sekcja5
     {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .sekcja5_all button
     {
@@ -269,5 +281,164 @@ body
     .linki_img
     {
         width: 200px;
+    }
+    .skills_full
+    {
+        width: 698px;
+    }
+    .skills_progress
+    {
+        width: 400px;
+    }
+    .logo
+    {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 850px)
+{
+    .sekcja1_menu
+    {
+        display: none;
+    }
+    .sekcja1_all
+    {
+        background-position: 2100px 1530px;
+    }
+}
+
+@media (max-width: 720px)
+{
+    .skills_full
+    {
+        width: 558px;
+    }
+    .skills_progress
+    {
+        width: 320px;
+    }
+}
+
+@media (max-width: 585px)
+{
+    .skills_full
+    {
+        width: 446px;
+    }
+    .skills_progress
+    {
+        width: 256px;
+    }
+
+    .profilowe
+    {
+        width: 216px;
+        height: 324px;
+        border-radius: 18px;
+        margin-top: 71px;
+    }
+    .naglowek
+    {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+        padding-top: 50px;
+    }
+    #naglowek_sekcja4
+    {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #naglowek_sekcja5
+    {
+        padding-top: 50px;
+    }
+    .sekcja1_all h1
+    {
+        font-size: 55px;
+        font-weight: 500;
+        margin-top: 401px;
+    }
+
+
+}
+
+@media (max-width: 463px)
+{
+    .sekcja1_all
+    {
+        background-position: 2100px 1480px;
+    }
+    .skills_full
+    {
+        width: 356px;
+    }
+    .skills_progress
+    {
+        width: 205px;
+    }
+    .sekcja1_all h1
+    {
+        font-size: 45px;
+        font-weight: 500;
+        margin-top: 401px;
+    }
+    .logo
+    {
+        width: 322px;
+        height: 97px;
+        margin-top: 56px;
+    }
+    .form
+    {
+        width: 300px;
+        height: 30px;
+        border-radius: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+        border: none;
+    }
+    .form_large
+    {
+        text-align: center;
+        width: 300px;
+        height: 150px;
+        border-radius: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        border: none;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .skills_full
+    {
+        width: 284px;
+    }
+    .skills_progress
+    {
+        width: 164px;
+    }
+    .logo
+    {
+        margin-left: 0px;
+    }
+    .sekcja2_prawo
+    {
+        margin-top: 40px;
+    }
+    .naglowek
+    {
+        font-size: 40px;
+    }
+    .sekcja2_prawo
+    {
+        margin-top: 20px;
+    }
+    .profilowe
+    {
+        margin-top: 40px;
     }
 }
