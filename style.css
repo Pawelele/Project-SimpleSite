@@ -32,7 +32,7 @@ body
     margin: 0 auto;
     text-align: center;
     float: right;
-    width: 815px;;
+    width: 815px;
 }
 .menu
 {
@@ -134,10 +134,38 @@ body
     margin-bottom:20px;
     margin-bottom: 55px;
 }
-.skills_progress
+.skills_progress_30
+{
+    background-color: #84FF8C;
+    width: 30%;
+    height: 52px;
+    border-radius: 30px;
+}
+.skills_progress_60
+{
+    background-color: #84FF8C;
+    width: 60%;
+    height: 52px;
+    border-radius: 30px;
+}
+.skills_progress_90
 {
     background-color: #84FF8C;
     width: 90%;
+    height: 52px;
+    border-radius: 30px;
+}
+.skills_progress_80
+{
+    background-color: #84FF8C;
+    width: 80%;
+    height: 52px;
+    border-radius: 30px;
+}
+.skills_progress_45
+{
+    background-color: #84FF8C;
+    width: 45%;
     height: 52px;
     border-radius: 30px;
 }
@@ -167,7 +195,6 @@ body
     text-align: center;
     background-color: #1A1A1A;
     height: 1080px;
-
 }
 .sekcja5_all button
 {
@@ -244,10 +271,7 @@ body
 {
     margin-top: 30px;
     transform: scale(1.05);
-
 }
-
-
 
 
 @media (max-width: 1570px)
@@ -258,23 +282,21 @@ body
     height: 380px;
     margin-bottom: 20px;
 }
-
-@media (max-width: 1570px)
+@media (max-width: 1320px)
 {
     .logo
     {
         width: 322px;
         height: 97px;
+        margin-top: 70px;
     }
 }
-
 }
-
 @media (max-width: 1199px)
 {
     .sekcja1_all
     {
-        background-position: 2100px 1630px;
+        background-position: 2100px 1545px;
     }
     .naglowek
     {
@@ -287,6 +309,10 @@ body
     .sekcja1_all
     {
         text-align: center;
+    }
+    .sekcja1_tittle
+    {
+        margin-top: -240px;
     }
     .sekcja2_all
     {
@@ -337,46 +363,28 @@ body
         width: 698px;
     }
 }
-
+@media (max-width: 1080px)
+{
+    .sekcja1_all
+    {
+        background-position: 2100px 1565px;
+    }
+}
 @media (max-width: 850px)
 {
-    .logo
-    {
-        margin-bottom: 30px;
-    }
     .sekcja1_menu
     {
         display: none;
     }
     .sekcja1_all
     {
-        background-position: 2100px 1610px;
-    }
-    .sekcja1_menu_h
-    {
-        display: unset;
-    }
-    .menu_h
-    {
-        width: 175px;
-        height: 53px;
-        border-radius: 18px;
-        margin-top: 40px;
-        margin-left: 25px;
-        text-align: center;
-        background-color: #3c3c3a;
-        color: white;
-        border: none;
-        transition: 0.25s;
+        background-position: 2100px 1540px;
     }
     .sekcja1_tittle
     {
-        margin: 0 auto;
-        margin-top: -270px;
-        text-align: center;
+        margin-top: -140px;
     }
 }
-
 @media (max-width: 720px)
 {
     .skills_full
@@ -384,7 +392,6 @@ body
         width: 558px;
     }
 }
-
 @media (max-width: 585px)
 {
     .skills_full
@@ -421,15 +428,12 @@ body
         font-weight: 500;
         margin-top: 401px;
     }
-
-
 }
-
 @media (max-width: 463px)
 {
     .sekcja1_all
     {
-        background-position: 2100px 1620px;
+        background-position: 2100px 1480px;
     }
     .skills_full
     {
@@ -441,28 +445,15 @@ body
         font-weight: 500;
         margin-top: 401px;
     }
-    .sekcja1_all
+    .sekcja1_tittle
     {
-        background-position: 2100px 1590px;
+        margin-top: -170px;
     }
     .logo
     {
         width: 322px;
         height: 97px;
         margin-top: 56px;
-    }
-    .menu_h
-    {
-        width: 160px;
-        height: 53px;
-        border-radius: 18px;
-        margin-top: 40px;
-        margin-left: 0px;
-        text-align: center;
-        background-color: #3c3c3a;
-        color: white;
-        border: none;
-        transition: 0.25s;
     }
     .form
     {
@@ -484,7 +475,6 @@ body
         border: none;
     }
 }
-
 @media (max-width: 400px)
 {
     .skills_full
