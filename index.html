@@ -15,13 +15,26 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("hamburger_menu_all");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+        </script>
     </head>
     <body>
         <div class="sekcja1_all">
             <div class="container-xl">
                 <div class="row">
                     <div class="col-xl-4">
-                        <a href="home.html"><img src="img/logo_full.png" alt="logo" class="logo"></a>
+                        <a href="index.html"><img src="img/logo_full.png" alt="logo" class="logo"></a>
                     </div>
                     <div class="col-xl-8">
                         <div class="sekcja1_menu">
@@ -33,6 +46,18 @@
                     </div>
                 </div>
             </div>
+
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                <img src="img/hamburger_icon.png" class="hamburger_img">
+            </a>
+
+            <div id="hamburger_menu_all">
+                <a href="#oMnie"><button class="menu_h"> O mnie </button></a><br>
+                <a href="#mojeUmiejetnosci"><button class="menu_h"> Moje umiejętności </button></a><br>
+                <a href="#mojeProjekty"><button class="menu_h"> Moje Projekty </button></a><br>
+                <a href="#kontakt"><button class="menu_h"> Kontakt/Linki </button></a>
+            </div>
+
             <div class="sekcja1_tittle">
                     <h1>Paweł Uchański</h1>
                     <h3>Portfolio</h3>

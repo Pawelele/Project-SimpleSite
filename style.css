@@ -13,6 +13,14 @@ body
 {
     display: none;
 }
+.menu_h
+{
+    display: none;
+}
+.hamburger
+{
+    display: none;
+}
 .container-xl
 {
     max-width: 1640px !important;
@@ -382,7 +390,58 @@ body
     }
     .sekcja1_tittle
     {
-        margin-top: -140px;
+        margin-top: -200px;
+    }
+
+    /* Hamburger menu for mobile */
+    #hamburger_menu_all
+    {
+        display: none;
+        position:absolute;
+        top: 40px;
+        margin: 0 auto;
+        text-align: center;
+        width: 200px;
+        height: 310px;
+        background-color: rgb(153, 153, 153);
+        padding: 12px;
+        border-radius: 18px;
+        top: 265px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu_h
+    {
+        width: 175px;
+        height: 53px;
+        border-radius: 18px;
+        margin-top: 0px;
+        text-align: center;
+        background-color: #3c3c3a;
+        color: white;
+        border: none;
+        transition: 0.25s;
+        display: block;
+    }
+    .hamburger
+    {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        transition: 0.25s;
+    }
+    .hamburger:hover
+    {
+        transform: scale(1.07);
+    }
+    .hamburger_img
+    {
+        width: 50px;
+        height: 50px;
     }
 }
 @media (max-width: 720px)
@@ -447,7 +506,7 @@ body
     }
     .sekcja1_tittle
     {
-        margin-top: -170px;
+        margin-top: -230px;
     }
     .logo
     {
@@ -473,6 +532,10 @@ body
         line-height: 30px;
         margin-bottom: 30px;
         border: none;
+    }
+    #hamburger_menu_all
+    {
+        margin-top: -40px;
     }
 }
 @media (max-width: 400px)
