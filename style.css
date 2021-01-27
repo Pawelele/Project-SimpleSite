@@ -63,7 +63,7 @@ body
 {
     background: url("img/hero.jpg");
     background-size: 2400px 1920px;
-    background-position: center;
+    background-position: 2100px 1510px;
     height:1080px;
 }
 .sekcja1_tittle
@@ -304,7 +304,7 @@ body
 {
     .sekcja1_all
     {
-        background-position: 2100px 1545px;
+        background-position: 2100px 1610px;
     }
     .naglowek
     {
@@ -375,7 +375,7 @@ body
 {
     .sekcja1_all
     {
-        background-position: 2100px 1565px;
+        background-position: 2100px 1635px;
     }
 }
 @media (max-width: 850px)
