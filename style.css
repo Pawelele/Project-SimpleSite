@@ -63,7 +63,7 @@ body
 {
     background: url("img/hero.jpg");
     background-size: 2400px 1920px;
-    background-position: 2100px 1510px;
+    background-position: 2100px 1570px;
     height:1080px;
 }
 .sekcja1_tittle
@@ -290,6 +290,10 @@ body
     height: 380px;
     margin-bottom: 20px;
 }
+.sekcja1_all
+{
+    background-position: 2100px 1545px;
+}
 @media (max-width: 1320px)
 {
     .logo
@@ -297,6 +301,10 @@ body
         width: 322px;
         height: 97px;
         margin-top: 70px;
+    }
+    .sekcja1_all
+    {
+        background-position: 2100px 1510px;
     }
 }
 }
@@ -375,7 +383,7 @@ body
 {
     .sekcja1_all
     {
-        background-position: 2100px 1635px;
+        background-position: 2100px 1640px;
     }
 }
 @media (max-width: 850px)
